@@ -1,5 +1,28 @@
+html, body {
+  margin: 0; height: 100%; overflow: hidden
+}
+
 .App {
   text-align: center;
+}
+
+.theme-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+.dark-theme {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vw;
+
+}
+
+.light-theme {
+  background-color: white;
+  width: 100vw;
+  height: 100vw;
 }
 
 .App-logo {
